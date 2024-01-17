@@ -7,6 +7,7 @@ export function TaskFormPage() {
   
   const onSubmit = handleSubmit(async data => {
     const res = await createTask(data)
+    
     console.log(res)
   })
 
